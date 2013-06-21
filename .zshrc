@@ -39,7 +39,7 @@ git_dirty() {
 
 precmd() {
 	vcs_info
-	PROMPT='%F{blue}%~%F{236}$vcs_info_msg_0_`git_dirty` $username%f#'
+	PROMPT='%F{blue}%~%F{236}$vcs_info_msg_0_`git_dirty` $username%f# '
 }
 # End of PROMPT
 
