@@ -11,6 +11,9 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
+# Aliases
+source $HOME/.aliases
+
 # PROMPT Customization (inspired by https://github.com/sindresorhus/pure)
 
 DEFAULT_USERNAME='andres'
