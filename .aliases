@@ -1,6 +1,7 @@
 # Unix
 alias tlf="tail -f"
 alias mkdir='mkdir -p'
+alias cl="clear"
 alias ll='ls -al'
 alias lh='ls -Alh'
 alias -g G='| grep'
