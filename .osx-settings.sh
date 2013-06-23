@@ -10,6 +10,10 @@ defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 # Increase window resize speed for Cocoa applications
 defaults write NSGlobalDomain NSWindowResizeTime -float 0.001
 
+# Menu bar: show remaining battery time (on pre-10.8); hide percentage
+defaults write com.apple.menuextra.battery ShowPercent -string "NO"
+defaults write com.apple.menuextra.battery ShowTime -string "YES"
+
 # Expand save panel by default
 defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
 
