@@ -18,6 +18,15 @@ compinit
 # Aliases
 source $HOME/.aliases
 
+
+VIMODE='❯'
+function zle-line-init zle-keymap-select {
+ VIMODE="${${KEYMAP/vicmd/:}/(main|viins)/❯}"
+ zle reset-prompt
+}
+zle -N zle-line-init
+zle -N zle-keymap-select
+
 # PROMPT Customization (inspired by https://github.com/sindresorhus/pure)
 
 DEFAULT_USERNAME='andres'
