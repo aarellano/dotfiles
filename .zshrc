@@ -66,3 +66,5 @@ export EC2_HOME="/opt/boxen/homebrew/Library/LinkedKegs/ec2-api-tools/jars"
 export AWS_AUTO_SCALING_HOME="/opt/boxen/homebrew/Library/LinkedKegs/auto-scaling/jars"
 
 export EDITOR=vim
+
+export PYTHONSTARTUP=~/.pythonrc
