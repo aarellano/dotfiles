@@ -1,0 +1,1 @@
+-d mysql --skip-test-unit -m ~/platanus_template.rb
