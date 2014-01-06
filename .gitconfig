@@ -21,3 +21,5 @@ helper = /opt/boxen/bin/boxen-git-credential
 
 [core]
 excludesfile = /opt/boxen/config/git/gitignore
+[merge]
+	tool = meld
