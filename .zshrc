@@ -56,11 +56,11 @@ precmd() {
 [ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
 
 # Env variables
-export JAVA_HOME="$(/usr/libexec/java_home)"
-export EC2_PRIVATE_KEY="$(/bin/ls "$HOME"/.ec2/pk-*.pem | /usr/bin/head -1)"
-export EC2_CERT="$(/bin/ls "$HOME"/.ec2/cert-*.pem | /usr/bin/head -1)"
-export EC2_HOME="/opt/boxen/homebrew/Library/LinkedKegs/ec2-api-tools/jars"
-export AWS_AUTO_SCALING_HOME="/opt/boxen/homebrew/Library/LinkedKegs/auto-scaling/jars"
+# export JAVA_HOME="$(/usr/libexec/java_home)"
+# export EC2_PRIVATE_KEY="$(/bin/ls "$HOME"/.ec2/pk-*.pem | /usr/bin/head -1)"
+# export EC2_CERT="$(/bin/ls "$HOME"/.ec2/cert-*.pem | /usr/bin/head -1)"
+# export EC2_HOME="/opt/boxen/homebrew/Library/LinkedKegs/ec2-api-tools/jars"
+# export AWS_AUTO_SCALING_HOME="/opt/boxen/homebrew/Library/LinkedKegs/auto-scaling/jars"
 
 export EDITOR=vim
 
