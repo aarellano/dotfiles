@@ -15,7 +15,7 @@ send-keys "git log -n 3" C-m
 send-keys "git st" C-m
 
 selectp -t 3
-send-keys "bundle exec guard" C-m
+send-keys "guard" C-m
 
 selectp -t 2
 send-keys "sleep 5" C-m
