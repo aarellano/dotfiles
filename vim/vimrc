@@ -1,0 +1,12 @@
+let mapleader = "\<Space>"
+
+" Makes it easy to adjuts my vimrc file
+nmap <leader>vr :sp $MYVIMRC<cr>
+nmap <leader>so :source $MYVIMRC<cr>
+
+" Let's have the escape on the home row
+imap jk <esc>
+imap kj <esc>
+imap <C-s> <esc>:w<CR>
+
+
