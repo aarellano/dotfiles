@@ -2,6 +2,8 @@ autoload -U colors && colors
 
 # source ~/.zsh_plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 
+export CLICOLOR=1
+
 # Find and set branch name var if in git repository.
 function git_branch_name()
 {
